@@ -1,0 +1,36 @@
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /vendor
+Disallow: /*?utm_source=
+Disallow: /*&utm_medium=
+Disallow: /*&utm_campaign=
+Disallow: /*?sid=
+Disallow: /*?gclid=
+Disallow: /*&sa=
+Disallow: /*&ved=
+Disallow: /*&usg=
+Disallow: /*?ycli=
+
+User-agent: Googlebot
+Allow: /
+Disallow: /admin
+Disallow: /vendor
+
+User-agent: AdsBot-Google
+Allow: /
+Disallow: /admin
+Disallow: /vendor
+
+User-agent: Yandex
+Allow: /
+Disallow: /admin
+Disallow: /vendor
+
+User-agent: Mailbot
+Allow: /
+Disallow: /admin
+Disallow: /vendor
+
+Sitemap: https://lmk-moscow.ru/sitemap.xml
+Host: lmk-moscow.ru
